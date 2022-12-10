@@ -35,5 +35,3 @@ idade_noiva = input('Qual a idade de sua noiva? ')
 print(f'{noiva}, noiva de Adonias, tem {idade_noiva} anos de idade.\n')
 
 print('Para um melhor entendimento, abra o código e leia ele com os comentários.\n')
-
-# CONTINUA...
