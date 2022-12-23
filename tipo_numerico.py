@@ -23,5 +23,5 @@ ex7 = 5 % 2 # Resto da divisão ---> Realiza a divisão e retorna o resto dela
 print('5' + ' % ' + '2 =',ex7, '---> Resto da divisão ---> Realiza a divisão e retorna o resto dela\n')
 ex8 = 5 ** 2 # Elevação ---> Um valor elevado a outro
 print('5' + ' ** ' + '2 =',ex8, '---> Elevação ---> Um valor elevado a outro.\n')
-
-# CONTINUA...
+ex9 = 1_000_000
+print(ex9, '\n')
