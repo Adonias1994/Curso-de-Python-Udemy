@@ -8,11 +8,11 @@ Tipo String
 
 Em Python, um dado é considerado string sempre que:
 
-- Estiver entre àspas simples -> 'uma string', '234', 'a', 'True', '42.3'
-- Estiver entre àspas duplas -> "uma string", "234", "a", "True", "42.3"
-- Estiver entre àspas simples triplas -> '''uma string''', '''234''', '''a''', '''True''', '''42.3'''
+- Estiver entre aspas simples -> 'uma string', '234', 'a', 'True', '42.3'
+- Estiver entre aspas duplas -> "uma string", "234", "a", "True", "42.3"
+- Estiver entre aspas simples triplas -> '''uma string''', '''234''', '''a''', '''True''', '''42.3'''
 """
-# - Estiver entre àspas duplas triplas -> """uma string""", """234""", """a""", """True""", """42.3"""
+# - Estiver entre aspas duplas triplas -> """uma string""", """234""", """a""", """True""", """42.3"""
 
 a_s = 'uma string'
 a_d = "234"
@@ -37,3 +37,9 @@ print(nome_2)
 print(type(nome_2), '\n')
 print(nome_3)
 print(type(nome_3), '\n')
+
+nome_4 = 'Juliana Karoliny'
+
+print(nome_4.upper(), '\n') # Transforma todas as letras em maiúsculas
+print(nome_4.lower(), '\n') # Transforma todas as letras em minúsculas
+print(nome_4.split(), '\n') # Transforma em uma lista de string
