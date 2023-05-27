@@ -43,3 +43,11 @@ nome_4 = 'Juliana Karoliny'
 print(nome_4.upper(), '\n') # Transforma todas as letras em maiúsculas
 print(nome_4.lower(), '\n') # Transforma todas as letras em minúsculas
 print(nome_4.split(), '\n') # Transforma em uma lista de string
+
+nome_5 = 'Juliana Karoliny'
+
+print(nome_5[::-1], '\n') # Também é possível inverter os caracteres
+
+nome_6 = 'Juliana Karoliny'
+
+print(nome_6.replace('Juliana Karoliny', 'Agora solteiro\n')) # No próximo exemplo é possível substituir caracteres
