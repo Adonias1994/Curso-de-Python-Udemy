@@ -24,6 +24,20 @@ Python é uma linguagem de tipagem dinâmica. Isso significa que ao declararmos 
 tipo de dado dela. Este tipo é inferido ao atribuírmos um valor a mesma.
 """
 
-numero = 42
+# As duas variáveis abaixo são globais
+
+numero = 42 # Exemplo de reatribuição de inteiro
 print(numero)
 print(type(numero))
+
+numero_2 = 'Adonias' # Exemplo de reatribuição de string
+print(numero_2)
+print(type(numero_2))
+
+# A variável abaixo é local
+
+if numero > 10:
+    novo = numero + 10
+    print(novo)
+
+print(novo) # Acho que não deveria ter imprimido
